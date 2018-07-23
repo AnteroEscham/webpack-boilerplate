@@ -1,0 +1,35 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $font;
+	color: $font-color;
+}
+
+* {
+	box-sizing: border-box;
+
+	&:before {
+		box-sizing: border-box;
+	}
+
+	*:after {
+		box-sizing: border-box;
+	}
+}
+
+body, html {
+	height: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+

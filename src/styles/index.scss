@@ -1,0 +1,13 @@
+//variables
+
+$font-color: #000;
+$font: 'Fira Sans', sans-serif;
+
+//config
+@import 'config/mixins.scss';
+@import 'config/base.scss';
+
+//layout
+@import 'layout/adjustment.scss';
+
+//blocks
